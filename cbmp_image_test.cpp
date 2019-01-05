@@ -1,7 +1,7 @@
 // test connected component labeling algorithm of the library
 #include <stdio.h>
 #include <stdint.h>
-#include "include/cbmp.h"
+#include "cbmp.h"
 
 void matris_lab(BMP *P, int inmax)
 {

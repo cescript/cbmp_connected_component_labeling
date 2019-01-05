@@ -13,7 +13,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/bins")
 set(CMAKE_BUILD_TYPE Release)
 
 # set header and source files for the test
-include_directories(${MAKE_CURRENT_LIST_DIR}/include/)
+include_directories(${CMAKE_CURRENT_LIST_DIR}/include/)
 
 # get all .c files under each sub folder
 file(GLOB test_files *.cpp)
